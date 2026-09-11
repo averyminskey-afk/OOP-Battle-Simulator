@@ -1,7 +1,7 @@
 from goblin import Goblin
 
 
-ARENA_NAME = "Red Ribon"
+ARENA_NAME = "The Iron Lung"
 
 
 def main():
@@ -12,7 +12,11 @@ def main():
 
     goblin = Goblin("Bubbles")
 
-    print(f"{goblin.name} enters the arena with {goblin.health} health.")
+    print(f"{newgoblin.name} enters the arena with {goblin.health} health.")
+
+    goblin = Goblin("Gribble")
+
+    print(f"{newgoblin.name} enters the arena with {goblin.health} health.")
     print("But no hero has answered the call... yet.")
 
 
