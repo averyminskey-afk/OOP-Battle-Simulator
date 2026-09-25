@@ -20,8 +20,6 @@ class Hero:
             
         print(f"{self.name} takes {damage} damage. Health: {self.health}")
 
-        def is_alive(self):
-            """Return True while the goblin has health remaining."""
-            return self.health > 0 
-
-        pass
+    def is_alive(self):
+        """Return True while the goblin has health remaining."""
+        return self.health > 0 
